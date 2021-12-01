@@ -29,11 +29,8 @@ class GetTimerService{
             
         )();
 
-        if(value === null || value === undefined){
-            timer.time = 'Indefinido'
-        }else {
-            timer.time = value;
-        }
+        if(value) timer.time = value
+        else timer.time = 'Indefinido';
      
         timer.type = param;
 

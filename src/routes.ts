@@ -5,6 +5,6 @@ const timerController = new TimerController();
 
 const routes = Router();
 
-routes.get("/:type", timerController.show);
+routes.get("/waiting-time/:type", timerController.show);
 
 export default routes;
