@@ -23,6 +23,6 @@ Acessar sites e retornar dados do HTML de forma estruturada
 - Método GET
 - URL:PORT/:param
 - O parâmetro informado na url irá definir qual dado será retornado
-- Exemplo: http://localhost:3333/child
+- Exemplo: http://localhost:3333/waiting-time/child
 
 
